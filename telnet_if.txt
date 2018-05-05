@@ -1,0 +1,545 @@
+Frame 6 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 1, Ack: 1, Len: 12
+Telnet
+    Command: Do Terminal Type
+    Command: Do Terminal Speed
+    Command: Do X Display Location
+    Command: Do New Environment Option
+--------------------------------------------------------------------------------------------------------------
+Frame 7 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 1, Ack: 13, Len: 6
+Telnet
+    Command: Will Terminal Type
+    Command: Will Negotiate About Window Size
+
+Frame 9 (63 bytes on wire, 63 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 7, Ack: 13, Len: 9
+Telnet
+    Command: Won't Terminal Speed
+    Command: Won't X Display Location
+    Command: Will New Environment Option
+--------------------------------------------------------------------------------------------------------------
+Frame 11 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 13, Ack: 16, Len: 15
+Telnet
+    Command: Do Negotiate About Window Size
+    Suboption Begin: New Environment Option
+    Command: Suboption End
+    Suboption Begin: Terminal Type
+        Send your Terminal Type
+    Command: Suboption End
+--------------------------------------------------------------------------------------------------------------
+Frame 12 (63 bytes on wire, 63 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 16, Ack: 28, Len: 9
+Telnet
+    Suboption Begin: Negotiate About Window Size
+    Command: Suboption End
+
+Frame 14 (70 bytes on wire, 70 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 25, Ack: 28, Len: 16
+Telnet
+    Suboption Begin: New Environment Option
+    Command: Suboption End
+    Suboption Begin: Terminal Type
+        Here's my Terminal Type
+        Value: ANSI
+    Command: Suboption End
+--------------------------------------------------------------------------------------------------------------
+Frame 16 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 28, Ack: 41, Len: 12
+Telnet
+    Command: Will Suppress Go Ahead
+    Command: Do Echo
+    Command: Will Status
+    Command: Do Remote Flow Control
+--------------------------------------------------------------------------------------------------------------
+Frame 17 (57 bytes on wire, 57 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 41, Ack: 40, Len: 3
+Telnet
+    Command: Do Suppress Go Ahead
+
+Frame 19 (63 bytes on wire, 63 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 44, Ack: 40, Len: 9
+Telnet
+    Command: Will Echo
+    Command: Don't Status
+    Command: Won't Remote Flow Control
+--------------------------------------------------------------------------------------------------------------
+Frame 21 (122 bytes on wire, 122 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 40, Ack: 53, Len: 68
+Telnet
+    Command: Don't Echo
+    Command: Will Echo
+    Data: Red Hat Linux release 9 (Shrike)\r\n
+    Data: Kernel 2.4.20-8 on an i686\r\n
+--------------------------------------------------------------------------------------------------------------
+Frame 22 (57 bytes on wire, 57 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 53, Ack: 108, Len: 3
+Telnet
+    Command: Won't Echo
+--------------------------------------------------------------------------------------------------------------
+Frame 23 (61 bytes on wire, 61 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 108, Ack: 56, Len: 7
+Telnet
+    Data: login: 
+
+Frame 24 (57 bytes on wire, 57 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 56, Ack: 115, Len: 3
+Telnet
+    Command: Do Echo
+
+Frame 26 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 59, Ack: 115, Len: 1
+Telnet
+    Data: r
+
+Frame 28 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 115, Ack: 60, Len: 1
+Telnet
+    Data: r
+
+Frame 29 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 60, Ack: 116, Len: 1
+Telnet
+    Data: o
+
+Frame 30 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 116, Ack: 61, Len: 1
+Telnet
+    Data: o
+
+Frame 32 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 61, Ack: 117, Len: 1
+Telnet
+    Data: o
+
+Frame 33 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 117, Ack: 62, Len: 1
+Telnet
+    Data: o
+
+Frame 35 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 62, Ack: 118, Len: 1
+Telnet
+    Data: t
+
+Frame 36 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 118, Ack: 63, Len: 1
+Telnet
+    Data: t
+
+Frame 38 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 63, Ack: 119, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 39 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 119, Ack: 65, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 41 (64 bytes on wire, 64 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 121, Ack: 65, Len: 10
+Telnet
+    Data: Password: 
+
+Frame 43 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 65, Ack: 131, Len: 1
+Telnet
+    Data: b
+
+Frame 45 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 66, Ack: 131, Len: 1
+Telnet
+    Data: e
+
+Frame 47 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 67, Ack: 131, Len: 1
+Telnet
+    Data: i
+
+Frame 49 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 68, Ack: 131, Len: 1
+Telnet
+    Data: n
+
+Frame 51 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 69, Ack: 131, Len: 1
+Telnet
+    Data: o
+
+Frame 53 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 70, Ack: 131, Len: 1
+Telnet
+    Data: u
+
+Frame 55 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 71, Ack: 131, Len: 1
+Telnet
+    Data: v
+
+Frame 57 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 72, Ack: 131, Len: 1
+Telnet
+    Data: y
+
+Frame 59 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 73, Ack: 131, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 61 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 131, Ack: 75, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 63 (120 bytes on wire, 120 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 133, Ack: 75, Len: 66
+Telnet
+    Data: Last login: Wed Dec 31 15:07:01 from 192.168.1.3\r\n
+    Data: You have mail.\r\n
+
+Frame 65 (71 bytes on wire, 71 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 199, Ack: 75, Len: 17
+Telnet
+    Data: [root@rh9 root]# 
+
+Frame 67 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 75, Ack: 216, Len: 1
+Telnet
+    Data: l
+
+Frame 68 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 216, Ack: 76, Len: 1
+Telnet
+    Data: l
+
+Frame 69 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 76, Ack: 217, Len: 1
+Telnet
+    Data: s
+
+Frame 70 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 217, Ack: 77, Len: 1
+Telnet
+    Data: s
+
+Frame 72 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 77, Ack: 218, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 73 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 218, Ack: 79, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 74 (1514 bytes on wire, 1514 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 220, Ack: 79, Len: 1460
+Telnet
+    Data: \033[00m\033[01;34mafunix\033[00m            \033[01;34mh608\033[00m                    \033[00mminus.py\033[00m           \033[01;32mtestr\033[00m\r\n
+    Data: \033[00manaconda-ks.cfg\033[00m   \033[01;32mhcid.0000\033[00m               \033[01;34mmm\033[00m                 \033[01;34mtest.tools\033[00m\r\n
+    Data: \033[01;34mapue.2e\033[00m           \033[01;32mhello\033[00m                   \033[01;34mmy.samples\033[00m         \033[01;32mtestw\033[00m\r\n
+    Data: \033[01;34masterisk\033[00m          \033[00mhello.c\033[00m                 \033[01;34mpacct\033[00m              \033[01;32mudpsender.py\033[00m\r\n
+    Data: \033[01;34mb610\033[00m              \033[01;34mhsp\033[00m                     \033[01;34mpanic\033[00m              \033[01;32mudtest\033[00m\r\n
+    Data: \033[01;32mbinfmt_elf.c\033[00m      \033[01;34mi600\033[00m                    \033[00mpax_global_header\033[00m  \033[01;32munixdomaintest.c\033[00m\r\n
+    Data: \033[01;34mbt.tools\033[00m          \033[01;32minjection\033[00m               \033[00mprofile\033[00m            \033[01;34mvoice_platform\033[00m\r\n
+    Data: \033[00mcat\033[00m               \033[01;32minjection.c\033[00m             \033[01;34mreadahead\033[00m          \033[01;34mzebra-0.95a\033[00m\r\n
+    Data: \033[01;32mcrosstool.tar.gz\033[00m  \033[01;34mkernel-dump\033[00m             \033[00mrtnetlink.h\033[00m        \033[01;32mzebra-0.95a.tar.gz\033[00m\r\n
+    Data: \033[01;34mdect\033[00m              \033[01;32mlinux-2.6.19.2.tar.bz2\033[00m  \033[01;34ms3c2410\033[00m            \033[01;34mzebra-0.95x\033[00m\r\n
+    Data: \033[01;32melf.parasize\033[00m      \033[01;34mlite-asterisk\033[00m           \033[01;34mslcdsp\033[00m             \033[01;34mzhangyi\033[00m\r\n
+    Data: \033[00mextensions.conf\033[00m   \033[01;34mlkm\033[00m                     \033[01;34mswcons\033[00m            
+
+Frame 76 (76 bytes on wire, 76 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 1680, Ack: 79, Len: 22
+Telnet
+    Data:  \033[01;32mzombie\033[00m\r\n
+
+Frame 78 (448 bytes on wire, 448 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 1702, Ack: 79, Len: 394
+Telnet
+    Data: \033[01;32mfault\033[00m             \033[01;34mlsm-0.6\033[00m                 \033[01;34mswshow\033[00m             \033[00mzombie.c\033[00m\r\n
+    Data: \033[00mfault.c\033[00m           \033[01;32mlsm-current.tar.gz\033[00m      \033[01;34mtemp\033[00m\r\n
+    Data: \033[01;32mfile\033[00m              \033[01;32mmain\033[00m                    \033[01;32mtest\033[00m\r\n
+    Data: \033[01;34mh102\033[00m              \033[00mmain.c\033[00m                  \033[00mtest.c\033[00m\r\n
+    Data: \033[m[root@rh9 root]# 
+
+Frame 80 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 79, Ack: 2096, Len: 1
+Telnet
+    Data: q
+
+Frame 81 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2096, Ack: 80, Len: 1
+Telnet
+    Data: q
+
+Frame 82 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 80, Ack: 2097, Len: 1
+Telnet
+    Data: u
+
+Frame 83 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2097, Ack: 81, Len: 1
+Telnet
+    Data: u
+
+Frame 84 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 81, Ack: 2098, Len: 1
+Telnet
+    Data: i
+
+Frame 85 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2098, Ack: 82, Len: 1
+Telnet
+    Data: i
+
+Frame 86 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 82, Ack: 2099, Len: 1
+Telnet
+    Data: t
+
+Frame 87 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2099, Ack: 83, Len: 1
+Telnet
+    Data: t
+
+Frame 89 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 83, Ack: 2100, Len: 1
+Telnet
+    Data: \b
+
+Frame 90 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2100, Ack: 84, Len: 6
+Telnet
+    Data: \033[D\033[K
+
+Frame 92 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 84, Ack: 2106, Len: 1
+Telnet
+    Data: \b
+
+Frame 93 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2106, Ack: 85, Len: 6
+Telnet
+    Data: \033[D\033[K
+
+Frame 94 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 85, Ack: 2112, Len: 1
+Telnet
+    Data: \b
+
+Frame 95 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2112, Ack: 86, Len: 6
+Telnet
+    Data: \033[D\033[K
+
+Frame 97 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 86, Ack: 2118, Len: 1
+Telnet
+    Data: \b
+
+Frame 98 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2118, Ack: 87, Len: 6
+Telnet
+    Data: \033[D\033[K
+
+Frame 99 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 87, Ack: 2124, Len: 1
+Telnet
+    Data: e
+
+Frame 100 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2124, Ack: 88, Len: 1
+Telnet
+    Data: e
+
+Frame 102 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 88, Ack: 2125, Len: 1
+Telnet
+    Data: x
+
+Frame 103 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2125, Ack: 89, Len: 1
+Telnet
+    Data: x
+
+Frame 104 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 89, Ack: 2126, Len: 1
+Telnet
+    Data: i
+
+Frame 105 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2126, Ack: 90, Len: 1
+Telnet
+    Data: i
+
+Frame 107 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 90, Ack: 2127, Len: 1
+Telnet
+    Data: t
+
+Frame 108 (55 bytes on wire, 55 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2127, Ack: 91, Len: 1
+Telnet
+    Data: t
+
+Frame 110 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.3 (192.168.1.3), Dst: 192.168.1.30 (192.168.1.30)
+Transmission Control Protocol, Src Port: idonix-metanet (2112), Dst Port: telnet (23), Seq: 91, Ack: 2128, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 111 (56 bytes on wire, 56 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2128, Ack: 93, Len: 2
+Telnet
+    Data: \r\n
+
+Frame 112 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd), Dst: IntelCor_8c:0e:bd (00:21:5c:8c:0e:bd)
+Internet Protocol, Src: 192.168.1.30 (192.168.1.30), Dst: 192.168.1.3 (192.168.1.3)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: idonix-metanet (2112), Seq: 2130, Ack: 93, Len: 14
+Telnet
+    Data: logout\r\n
+    Data: \033[H\033[J

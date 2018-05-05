@@ -1,0 +1,12 @@
+ip_build_and_send_pkt
+
+ip_rt_bug route.c
+
+skb->dst->output points to ip_rt_bug? How?
+
+inet_init -> inet_add_protocol -> icmp_protocol -> icmp_rcv
+
+checksum is error.
+
+0xea3c, 0x47f8
+
